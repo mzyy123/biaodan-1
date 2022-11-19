@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>表单</title>
+	</head>
+	<body>
+	<form>
+		<table border="2">
+			<thead>
+				<tr >
+					<td colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					信息统计表</td>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>姓名</td>
+					<td><input type="text"></td>
+				</tr>
+				<tr>
+					<td>密码</td>
+					<td><input type="password"></td>
+				</tr>
+				<tr>
+					<td>性别</td>
+					<td><label><input type="radio" name="sex">男</label>
+					<label><input type="radio" name="sex" checked>女</label></td>
+				</tr>
+				<tr>
+					<td>年龄</td>
+					<td><input type="text"></td>
+				</tr>
+				<tr>
+					<td>爱好</td>
+					<td><label><input type="checkbox">打游戏</label><br>
+					<label><input type="checkbox">看电影</label><br>
+					<label><input type="checkbox">睡觉</label><br>
+					<label><input type="checkbox">火锅</label><br>
+					<label><input type="checkbox">听音乐</label><br>
+					<label><input type="checkbox">跳舞</label>
+					</td>
+                </tr>
+				<tr>
+					<td>学历</td>
+					<td><select name="degree">
+					<option value="">--请选择--</option>
+					<option value="1">专科</option>
+					<option value="2">本科</option>
+				<option value="3">硕士</option>
+				<option value="4">博士及以上</option>
+				</select></td>
+				</tr>
+				<tr>
+					<td>自我介绍</td>
+					<td><textarea cols="30" rows="10">自我介绍:</textarea></td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<tr>
+					<td></td>
+					<td><input type="submit" value="提交按钮">
+					<input type="reset" value="重置按钮">
+					<input type="button" value="返回"></td>
+				</tr>
+			</tfoot>
+		</table>
+	</form>	
+	</body>
+</html>
